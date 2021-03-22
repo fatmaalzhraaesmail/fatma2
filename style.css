@@ -1,0 +1,122 @@
+
+
+header{ 
+    min-height: 80vh;
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.nav-link:focus{
+    border-bottom: solid 2px yellowgreen; 
+}
+a:hover{
+    color: white ;
+    
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    color: aliceblue;
+}
+.nav-link{
+    color: white !important;
+}
+.d2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size:large;
+}
+.d2 h1{
+    margin-bottom: 10px;
+    
+   
+}
+.d2 p{
+   margin-bottom: 30px;
+
+}
+.d2 button{
+   background: transparent;
+   border-radius: 15px;
+   border: 2px solid wheat;
+   width: 160px;
+   height: 35px;
+   text-decoration: none;
+    line-height: 10px;
+   color: aliceblue;
+   margin-bottom: 30px;
+
+}
+/* .f{
+    margin-top: 65px;
+    width: 100%;
+    height: 500px;
+    margin-left: 10%;
+}
+.f >div{
+    width: 50%;
+    height: 100%;
+}
+.e-left {
+   float: left;
+   
+
+}
+.e-left h2{
+   font-weight: bold;
+   padding-bottom: 10px;
+}
+.e-left p{
+   
+}
+.e-left dl{
+   padding-top: 20px;
+
+}
+.e-left dt{
+   font-weight:bolder;
+   font-size: 21px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+.e-left dd{
+   
+}
+.e-right{
+   float: right;
+   
+
+}
+.e-right img{
+   width: 100%;
+} */
+.step-box{
+    margin-top: 30px;
+}
+.step-box:first-child{
+    text-align: left; padding-right: 3%;
+}
+.step-box:last-child{
+    text-align: left; 
+    margin-top: 50px;
+}
+/*  .step-box:nth-child(1) */
+.step-box img{
+    width: 500px;
+   height: 500px;
+ }
+.step{
+    margin-bottom: 50px; display: flex;
+}
+.step div{
+    width: 60px; height: 60px; 
+    border: solid #0e8f39 2px;
+    border-radius: 50%; text-align: center;
+    padding: 13px; margin-right: 10px;
+    margin-top: 14px;
+}
